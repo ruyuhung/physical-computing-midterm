@@ -107,7 +107,7 @@ void sweaterHandler(const char *event, const char *data)
 ```
 #### One way or Two way communication
 ![alt](https://github.com/ruyuhung/WeatherWear_Soil/blob/master/TwoWayCommuni.JPG)
-Though we succeed in communicating mutual ways, it seems like for the mutual communication, that the photon reacts so slow and we might have to reset the Blynk app again for reading the data. For more communication process could go check on [Stephanie's documentation](https://github.com/sfiddy/physical-computing-midterm/).
+Though we succeed in communicating mutual ways, it seems like for the mutual communication, that the photon reacts so slow and we might have to reset the Blynk app again for reading the data. Therefore, for in class demonstration, we will try do it only one way. For other communication issues, could go check on [Stephanie's documentation](https://github.com/sfiddy/physical-computing-midterm/).
 
 ## Future Improvement
 Since the soil moisture is quite sensitive and depends highly on different kinds of soil. Therefore, it might be more precuse to have more technical details between the sensor and the response of the moisture level. 
