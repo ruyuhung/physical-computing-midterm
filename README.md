@@ -1,21 +1,23 @@
 # Midterm IoT Project
 
-Name:  
+Name:  Ruby Hung
 
-Date:
+Date: 10.11.2017
 
-## Project: "Brand Name" or Device Name
+## Project: "Weather Wear" - Soil Moisture 
 
 ### Conceptual Description
 
-/// Replace with a description of the ***critical / conceptual dimensions of your project***, with specific reference to the key issues it engages.  These should intersect with the issues that have been explored in the readings and discussions during the first half of class:  eWaste, data security/ownership in relation to corporate cloud infrastructures; critical making; surveillance and privacy, etc. ** *How does your project engage with these issues beyond mere instrumentality?* ** ///
+For my IoT project, I hope to find the inspiration from day-to-day issues which could be responded or solved through the IoT device that I am going to produce. For the topics, I am interested in the interaction with the plants (or other environmental data) and its transformation to other form of senses, such as, image or audio. Since I have plenty of plants pots in my house, the soil moisture sensor becomes my primary tool. I am curious about how it works and would like to set a soil moisture threshold to turn on the servo motor to make an automatic watering machine for my own plants. However, after some research, the automatic watering system has been done on the Sparkfun and Youtube website. 
+While searching for new ideas and brainstorming with my partner, Stephanie Fiddy; We found that instead of detecting the plant needs to be watered. In fact, the soil moisture sensor could be a great indication of what kinds of shoe that the users are going to wear before going out. If combine the soil moisture data with the temperature sensor, it might be possible to construct a set of wearing customized suggestion for the user.
 
 ### Form
+Since the device needs to be connected with the soil, a plant pot will be a great location to situate both of our sensors. Each of the photon has an enclosure with a hook to allow it hang on the edge of the plant pot which will allow the users some flexibility of putting their sensors. In addition, the soil moisture sensor has to go out from the photon. The enclosure is designed according to the need. 
 
-/// Your project should be embodied in a ***physical form*** that reflects, embodies, and/or amplifies those your project's main concepts and ideas.
-Explain your design choices here and include images that document your project's material embodiment. ///
 
 **Finished Enclosure:**
+I used Autodesk Fusion 360 for the enclosure since it is a great tool for solid 3D modelling and printing. By designing two aspects of the sketches and some extrusion and cutting, the prototype of enclosure is as the following. After exporting the top and the bottom part of enclosure. I sent them to the 3D printers in Co-Lab. The machine is Ultimaker 2 and processed through the cloud service for 3D slicing and repairing.
+![alt](https://github.com/ruyuhung/WeatherWear_Soil/blob/master/WWS_Enclosure.png)
 
 ![Finished Enclosure](finished_enclosure.jpg)
 
